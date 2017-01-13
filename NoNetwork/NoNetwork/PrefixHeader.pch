@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  NoNetwork
+//
+//  Created by Jacky Sun on 2017/1/13.
+//  Copyright © 2017年 syf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "DRHProgressHUD.h"
+#define AdaptH(H) SCREEN_WIDTH * H/375.0
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define DRHColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define DefaulMessage  @"http://test.dronghui.net/DrhManage/product?m=FiBgAz1bFzBPJwxYHv0&page=4s&pageCount=4fs&u=4fRSFvMh5fxQ4ixQ5v8d4vMd5f5REf8k4vIg4fMe4C0&sec=EDtcHyAe4vwi&tt=9Qwc6%2FAe4vQZ6vFt5%2Bgg4vwh3%2FNy4PAZ4PEj9v0j5Awi5g1u3v0c4%2FIZ4vwZ4%2F4M4%2F4m5%2F8m4vA&i=GAp%2F0v4a4Osd4uke&x=%2BAp%2FDPwc3P1KKvMiDfEgDP4a4M"
+#endif /* PrefixHeader_pch */
